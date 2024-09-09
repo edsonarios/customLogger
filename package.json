@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js",
     "lint": "eslint \"{cdk,src,apps,libs,test}/**/*.ts\" --fix"
   },
   "keywords": [],
