@@ -6,7 +6,7 @@
     "ignore": [
         "node_modules"
     ],
-    "exec": "ts-node -r ./src/example.ts",
+    "exec": "ts-node -r ./src/index.ts",
     "env": {
         "STAGE": "local"
     }

@@ -1,15 +1,14 @@
 {
-  "name": "customlogger",
+  "name": "@edsonarios/custom-logger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Custom logger using winston to CDK and Nest",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
-    "lint": "eslint \"{cdk,src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint \"{cdk,src,apps,libs,test}/**/*.ts\" --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Edson Añawaya Rios - edsonrios9@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "22.5.1",
