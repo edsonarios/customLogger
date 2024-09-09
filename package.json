@@ -2,6 +2,7 @@
   "name": "@edsonarios/custom-logger",
   "version": "1.0.0",
   "description": "Custom logger using winston to CDK and Nest",
+  "private": false,
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
