@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,js",
+    "ignore": [
+        "node_modules"
+    ],
+    "exec": "ts-node -r ./src/example.ts",
+    "env": {
+        "STAGE": "local"
+    }
+}
